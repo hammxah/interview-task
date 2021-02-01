@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="743d7e44-8fc2-429f-9613-1659b843c280" name="Default Changelist" comment="" />
+    <list default="true" id="743d7e44-8fc2-429f-9613-1659b843c280" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Book.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/BookController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_02_01_211453_create_books_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/books/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/books/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -108,17 +118,26 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1ntcURlM8QV7bkXycmbLEsconVf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -148,11 +167,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1612212843636</updated>
-      <workItem from="1612212851354" duration="257000" />
+      <workItem from="1612212851354" duration="4498000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1612215058476">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1612215058476" />
   </component>
 </project>

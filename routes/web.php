@@ -11,6 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'BookController@index');
+Route::get('/books/create', 'BookController@create')->name('create_book');
+Route::post('/books/store', 'BookController@store')->name('store_book');
