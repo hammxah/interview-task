@@ -23,7 +23,8 @@
 
         <div class="collapse navbar-collapse navHeaderCollapse">
             <ul class="nav navbar-nav navbar-right">
-                <li class="@yield('index_active')"><a href="/">Home</a></li>
+                <li class="@yield('home_active')"><a href="/">Home</a></li>
+                <li class="@yield('index_active')"><a href="{{ route('index_book') }}">All Books</a></li>
                 <li class="@yield('create_active')"><a href="{{ route('create_book') }}">Add Book</a></li>
             </ul>
         </div>
@@ -48,5 +49,7 @@
         <p class="navbar-text pull-left">© 2021 - Interview Task</p>
     </div>
 </div>
+
+<script type="text/javascript" src="{{ asset('js/custom.js') }}"></script>
 </body>
 </html>

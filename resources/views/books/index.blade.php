@@ -11,7 +11,10 @@
         </div>
         <div class="col-lg-3"></div>
         <div class="col-lg-3">
-            <input type="text" class="form-control" style="margin-top: 10px;" placeholder="Search here" name="search" id="search">
+{{--            <form action="{{ route('search') }}" method="post">--}}
+{{--                <meta name="csrf-token" content="{{ csrf_token() }}">--}}
+{{--                <input type="text" class="form-control" style="margin-top: 10px;" placeholder="Search here" name="search" id="search">--}}
+{{--            </form>--}}
         </div>
     </div>
     <div>
